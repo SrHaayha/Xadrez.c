@@ -1,0 +1,28 @@
+Recursividade para Torre, Bispo e Rainha:
+
+Cada uma das peças (Torre, Bispo, Rainha) agora utiliza uma função recursiva para simular seus movimentos.
+
+Para a Torre, a função mover_torre() faz uma chamada recursiva para se mover 5 casas para a direita.
+
+Para a Rainha, a função mover_rainha() faz uma chamada recursiva para mover 8 casas para a esquerda.
+
+Para o Bispo, a função mover_bispo_recursivo() combina recursividade e loops aninhados para movimentar 5 casas na diagonal (cima e direita), e dentro desse movimento, ele também imprime movimentos adicionais verticais e horizontais.
+
+Loops complexos para o Cavalo:
+
+A movimentação do Cavalo foi aprimorada para mover 2 casas para cima e 1 casa para a direita, utilizando loops aninhados.
+
+Foram utilizados for e while, com controle adicional de fluxo usando break e continue.
+
+Movimentação do Bispo com loops aninhados:
+
+Para o Bispo, além da recursividade, foram adicionados loops aninhados que simulam o movimento vertical e horizontal de maneira mais detalhada.
+
+Como usar o código:
+Salve o código em um arquivo chamado xadrez.c.
+
+Compile o código: gcc xadrez.c -o xadrez.
+
+Execute o programa: ./xadrez (em sistemas Unix/Linux) ou xadrez.exe no Windows.
+
+O programa irá simular os movimentos das peças de xadrez conforme solicitado no desafio, imprimindo os movimentos no console.
